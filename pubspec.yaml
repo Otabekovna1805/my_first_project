@@ -1,0 +1,96 @@
+name: my_first_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+  freezed: ^2.4.2
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/image/account_image.png
+     - assets/image/add.png
+     - assets/image/add_resume.png
+     - assets/image/add_vacancy.png
+     - assets/image/add_vacancy_resume.png
+     - assets/image/addition.png
+     - assets/image/age.png
+     - assets/image/area.png
+     - assets/image/charge.png
+     - assets/image/company.png
+     - assets/image/contact.png
+     - assets/image/edit_profile.png
+     - assets/image/label.png
+     - assets/image/log_in_page.png
+     - assets/image/moon.png
+     - assets/image/name.png
+     - assets/image/no_data.png
+     - assets/image/phone_number.png
+     - assets/image/privacy.png
+     - assets/image/programmer_for_login_sign_in_page.png
+     - assets/image/programmer_for_sign.png
+     - assets/image/purpose.png
+     - assets/image/salary.png
+     - assets/image/sun.png
+     - assets/image/technological.png
+     - assets/image/time_to_apply.png
+     - assets/image/work_time.png
+     - assets/image/saved.png
+     - assets/icons/saved.png
+     - assets/icons/saved_fill.png
+  fonts:
+     - family: Saira
+       fonts:
+         - asset: assets/fonts/saira/SairaCondensed-Black.ttf
+         - asset: assets/fonts/saira/SairaCondensed-Bold.ttf
+         - asset: assets/fonts/saira/SairaCondensed-ExtraBold.ttf
+         - asset: assets/fonts/saira/SairaCondensed-ExtraLight.ttf
+         - asset: assets/fonts/saira/SairaCondensed-Light.ttf
+         - asset: assets/fonts/saira/SairaCondensed-Medium.ttf
+         - asset: assets/fonts/saira/SairaCondensed-Regular.ttf
+         - asset: assets/fonts/saira/SairaCondensed-SemiBold.ttf
+         - asset: assets/fonts/saira/SairaCondensed-Thin.ttf
+     - family: Exo
+       fonts:
+         - asset: assets/fonts/exo/Exo-Black.ttf
+         - asset: assets/fonts/exo/Exo-BlackItalic.ttf
+         - asset: assets/fonts/exo/Exo-Bold.ttf
+         - asset: assets/fonts/exo/Exo-BoldItalic.ttf
+         - asset: assets/fonts/exo/Exo-ExtraBold.ttf
+         - asset: assets/fonts/exo/Exo-ExtraBoldItalic.ttf
+         - asset: assets/fonts/exo/Exo-ExtraLight.ttf
+         - asset: assets/fonts/exo/Exo-ExtraLightItalic.ttf
+         - asset: assets/fonts/exo/Exo-Italic.ttf
+         - asset: assets/fonts/exo/Exo-Italic-VariableFont_wght.ttf
+         - asset: assets/fonts/exo/Exo-Light.ttf
+         - asset: assets/fonts/exo/Exo-LightItalic.ttf
+         - asset: assets/fonts/exo/Exo-Medium.ttf
+         - asset: assets/fonts/exo/Exo-MediumItalic.ttf
+         - asset: assets/fonts/exo/Exo-Regular.ttf
+         - asset: assets/fonts/exo/Exo-SemiBold.ttf
+         - asset: assets/fonts/exo/Exo-SemiBoldItalic.ttf
+         - asset: assets/fonts/exo/Exo-Thin.ttf
+         - asset: assets/fonts/exo/Exo-ThinItalic.ttf
+         - asset: assets/fonts/exo/Exo-VariableFont_wght.ttf
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
